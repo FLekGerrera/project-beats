@@ -1,0 +1,21 @@
+.hero {
+  font-family: "Play", Arial, Helvetica, sans-serif;
+  background: url(/img/Ellipse\ 5.png) right no-repeat;
+  background-color: #F5F5F5;
+  height: 100vh;
+  min-height: 650px;
+}
+
+.hero__container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

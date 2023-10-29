@@ -1,0 +1,20 @@
+$containerWidth: 940px;
+$baseFontSize: 16px;
+
+//colors
+$grey: #666666;
+$black: #292929;
+
+//normalize
+@import 'normalize';
+
+//setups
+@import 'https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Play:wght@400;700&display=swap';
+@import 'layout';
+
+//block
+@import 'block/header';
+@import 'block/hero';
+@import 'block/features';
+@import 'block/feature';
+@import 'block/btn';
