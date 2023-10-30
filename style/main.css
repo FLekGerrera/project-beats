@@ -647,7 +647,7 @@ img {
   position: relative;
 }
 .benefits__section:before {
-  content: url(../../img/Vector\ 2.png);
+  content: url(../img/Vector\ 2.png);
   position: absolute;
   bottom: -18px;
   left: 18%;
