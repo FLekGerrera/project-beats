@@ -5,6 +5,9 @@ $baseFontSize: 16px;
 $grey: #666666;
 $black: #292929;
 
+//z-indexes 
+$z-fixed-menu: 100;
+
 //normalize
 @import 'normalize';
 
@@ -18,3 +21,13 @@ $black: #292929;
 @import 'block/features';
 @import 'block/feature';
 @import 'block/btn';
+@import 'block/section';
+@import 'block/headline';
+@import 'block/benefits';
+@import 'block/benefit';
+@import 'block/benefits__section';
+@import 'block/reviews';
+@import 'block/interictive-avatar';
+@import 'block/form';
+@import 'block/radio';
+@import 'block/fixed-menu';
