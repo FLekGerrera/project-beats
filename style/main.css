@@ -441,7 +441,7 @@ img {
   position: relative;
 }
 .hero:before {
-  content: url(./img/Rectangle\ 14.png);
+  content: url(../img/Rectangle\ 14.png);
   position: absolute;
   right: 19%;
   bottom: -24px;
@@ -460,7 +460,7 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 24px 0 45px;
-  background: url(./img/Ellipse\ 5.png) right center/50% auto no-repeat;
+  background: url(../img/Ellipse\ 5.png) right center/50% auto no-repeat;
 }
 
 .hero__title-section {
@@ -592,7 +592,7 @@ img {
   position: relative;
 }
 .benefits__item:before {
-  content: url(./img/Combined\ shape\ 2204.png);
+  content: url(../img/Combined\ shape\ 2204.png);
   position: absolute;
   top: 58px;
   right: 0;
@@ -734,7 +734,7 @@ img {
   position: relative;
 }
 .reviews__section:before {
-  content: url(./img/Ellipse\ 7.png);
+  content: url(../img/Ellipse\ 7.png);
   position: absolute;
   bottom: -25px;
   left: 18%;

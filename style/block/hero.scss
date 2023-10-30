@@ -7,7 +7,7 @@
   position: relative;
 
   &:before {
-    content: url(./img/Rectangle\ 14.png);
+    content: url(../img/Rectangle\ 14.png);
     position: absolute;
     right: 19%;
     bottom: -24px;
@@ -20,7 +20,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 24px 0 45px;
-  background: url(./img/Ellipse\ 5.png) right center / 50% auto no-repeat;
+  background: url(../img/Ellipse\ 5.png) right center / 50% auto no-repeat;
 }
 
 .hero__title-section {
