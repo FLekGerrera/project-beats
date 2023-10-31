@@ -631,6 +631,8 @@ img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .benefit__title {
@@ -789,6 +791,9 @@ img {
   display: flex;
   margin-bottom: 10px;
 }
+.form__row:last-child {
+  margin-bottom: 0;
+}
 
 .form__row--textarear {
   margin-bottom: 31px;
@@ -852,6 +857,9 @@ img {
 .radio--checkbox .radio__visible:before {
   background: url("../../img/checkmark.png") center center no-repeat;
 }
+.radio:last-child {
+  margin-right: 0;
+}
 
 .radio__elem {
   display: none;
@@ -894,6 +902,9 @@ img {
 }
 .fixed-menu__item--active .fixed-menu__link {
   border-color: #E01F3D;
+}
+.fixed-menu__item:last-child {
+  margin-bottom: 0;
 }
 
 .fixed-menu__link {

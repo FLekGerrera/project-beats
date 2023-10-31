@@ -9,11 +9,15 @@
       border-radius: 5px;
 
       &:before {
-        background: url("../img/checkmark.png") center center no-repeat;
+        background: url("../../img/checkmark.png") center center no-repeat;
       }
     }
 
     
+  }
+
+  &:last-child {
+    margin-right: 0;
   }
 }
 
