@@ -1,0 +1,18 @@
+.footer {
+  height: 86px;
+}
+
+.footer__container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 rem(87px);
+}
+
+.address {
+  font-style: normal;
+}
+
+

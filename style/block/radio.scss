@@ -2,14 +2,14 @@
   display: flex;
   cursor: pointer;
   user-select: none;
-  margin-right: 16px;
+  margin-right: rem(16px);
 
   &--checkbox {
     .radio__visible {
-      border-radius: 5px;
+      border-radius: rem(5px);
 
       &:before {
-        background: url("../../img/checkmark.png") center center no-repeat;
+        background: url("../img/checkmark.png") center center no-repeat;
       }
     }
 
@@ -32,17 +32,17 @@
 }
 
 .radio__visible {
-  height: 25px;
-  width: 25px;
+  height: rem(25px);
+  width: rem(25px);
   position: relative;
   border-radius: 50%;
   background: #fff;
-  margin-right: 10px;
+  margin-right: rem(10px);
 
   &:before {
     content: "";
-    height: 13px;
-    width: 13px;
+    height: rem(13px);
+    width: rem(13px);
     background: #E01F3D;
     border-radius: 50%;
     position: absolute;

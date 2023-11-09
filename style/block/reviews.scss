@@ -6,31 +6,48 @@
 
 .reviews__display {
   background-color: #F8FAF9;
-  padding: 42px;
-  margin-bottom: 15px;
+  padding: rem(42px);
+  margin-bottom: rem(15px);
   position: relative;
 
   &:before {
     content: '';
     display: block;
-    height: 90px;
-    width: 90px;
+    height: rem(90px);
+    width: rem(90px);
     background: #fff;
     border-radius: 50%;
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
-    top: -65px;
+    top: rem(-65px);
+  }
+
+  @include tablets {
+    margin-bottom: rem(34px);
   }
 }
 
 .reviews__display-inner {
   display: flex;
+
+  @include tablets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .reviews__avatar {
-  height: 264px;
-  width: 263px;
+  display: flex;
+  align-items: center;
+  height: rem(264px);
+  width: rem(263px);
+
+  @include tablets {
+    height: rem(140px);
+    width: rem(140px);
+  }
 }
 
 .reviews__avatar-img {
@@ -40,24 +57,40 @@
 }
 
 .reviews__content {
-  margin-left: 40px;
+  margin-top: rem(32px);
+  margin-left: rem(40px);
   flex: 1;
+
+  @include tablets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
 }
 
 .reviews__title {
-  margin-bottom: 27px;
-  font-size: 24px;
+  margin-bottom: rem(27px);
+  font-size: rem(24px);
   font-weight: bold;
   color: $black;
+
+  @include tablets {
+    margin-bottom: rem(13px);
+  }
 }
 
 .reviews__text {
-  margin-bottom: 38px;
+  margin-bottom: rem(38px);
   color: $grey;
+
+  @include tablets {
+    margin-bottom: rem(28px);
+  }
 }
 
 .reviews__author {
-  font-size: 18px;
+  font-size: rem(18px);
   font-weight: bold;
 }
 
@@ -72,7 +105,7 @@
   &:before {
     content: url(../img/Ellipse\ 7.png);
     position: absolute;
-    bottom: -25px;
+    bottom: rem(-25px);
     left: 18%;
   }
 }
