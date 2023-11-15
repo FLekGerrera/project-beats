@@ -1,5 +1,9 @@
 .benefit {
   text-align: center;
+
+  @include phones {
+    text-align: left;
+  }
 }
 
 .benefit__img-wrapper {
@@ -10,6 +14,10 @@
   background-color: #F2F5F4;
   border-radius: 50%;
   margin-bottom: rem(12px);
+
+  @include tablets {
+    margin-bottom: rem(24px);
+  }
 }
 
 .benefit__icon {
@@ -25,9 +33,18 @@
 .benefit__title {
   font-size: rem(24px);
   font-weight: bold;
+
+  @include tablets{
+    font-size: rem(20px);
+    margin-bottom: rem(15px);
+  }
 }
 
 .benefit__desc {
   padding: 0 rem(10px);
   color: $grey;
+
+  @include tablets{
+    padding: 0 0;
+  }
 }

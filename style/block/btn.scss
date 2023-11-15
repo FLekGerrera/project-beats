@@ -13,5 +13,9 @@
 	&--transparent {
 		background: transparent;
 		text-transform: none;
+
+		@include phones {
+			font-weight: normal;
+		}
 	}	
 }

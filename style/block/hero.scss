@@ -42,7 +42,12 @@
     text-align: center;
 
     &:before {
-      content: url(../img/Ellipse\ 5.png);
+    content: "";
+    width: rem(323px);
+    height: rem(323px);    
+    background: url(../img/Ellipse\ 5.png) center center / contain no-repeat;
+    margin-bottom: rem(64px);
+    background-size: 100%;
     }
   }
 }
@@ -59,6 +64,16 @@
   line-height: 1.1;
   font-weight: bold;
   text-transform: uppercase;
+
+  @include tablets {
+    padding: 0 5%;
+    margin-bottom: rem(7px);
+  }
+
+  @include phones {
+    font-size: rem(36px);
+    padding: 0 8%;
+  }
 }
 
 .hero__title-desc {
@@ -68,5 +83,10 @@
   
   @include tablets {
     padding: 0 20%;
+    margin-bottom: rem(20px);
+  }
+  
+  @include phones {
+    padding: 0 12%;
   }
 }

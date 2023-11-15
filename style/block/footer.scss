@@ -1,18 +1,47 @@
 .footer {
   height: 86px;
+  display: flex;
+  justify-content: center;
+
+  @include tablets {
+    height: 107px;
+  }
+
+  @include phones {
+    height: 151px;
+  }
 }
 
 .footer__container {
   display: flex;
-  height: 100%;
-  width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 0 0 0 rem(87px);
+  height: 100%;
+
+  @include phones {
+    flex-direction: column;
+  }
 }
 
 .address {
   font-style: normal;
+  
+  .address__text {
+    display: flex;
+    font-size: rem(22px);
+    margin-bottom: rem(12px);
+  }
 }
 
+.phone-number {
 
+   @include tablets {
+    color: $red;
+  }
+
+  @include phones {
+    display: flex;
+    justify-content: center;
+    color: $red;
+  }
+}
