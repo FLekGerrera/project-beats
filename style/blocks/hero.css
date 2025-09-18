@@ -1,0 +1,51 @@
+.hero {
+  padding: 24px 0 65px;
+  background-color: #F5F5F5;
+  position: relative;
+}
+.hero:before {
+  content: url(../../img/decor/Rectangle\ 14.svg);
+  position: absolute;
+  right: 28%;
+  bottom: -4%;
+}
+
+.hero__container {
+  background: url(../../img/decor/Ellipse\ 5.png) right center/50% auto no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.hero__title-section {
+  margin-top: 94px;
+}
+
+.hero__main-title {
+  font-family: "Play", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  width: 46%;
+}
+
+.hero__title-desc {
+  margin-top: 20px;
+  font-size: 21px;
+  width: 36%;
+  line-height: 1.2;
+}
+
+.hero__btn {
+  margin-top: 36px;
+}
+
+.hero__icons-section {
+  margin-top: 68px;
+}

@@ -1,0 +1,17 @@
+.feature {
+    display: flex;
+}
+
+.feature__icon {
+    margin-right: 12px;
+    
+    img {
+        width: 41px;
+    }
+}
+
+.feature__text {
+    font-family: "Play", Arial, Helvetica, sans-serif;
+    max-width: 114px;
+    line-height: 1.22;
+}

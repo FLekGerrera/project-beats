@@ -1,0 +1,12 @@
+.btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 16px 42px;
+  background: #E01F3D;
+  border-radius: 100px;
+  color: white;
+  font-family: "Play", Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}

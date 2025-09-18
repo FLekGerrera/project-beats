@@ -1,0 +1,22 @@
+.bg-vk {
+    width: 24px; height: 24px;
+    background: url(../../img/icons/vk.svg) -10px -10px;
+}
+
+x
+.bg-fb {
+    width: 24px; height: 24px;
+    background: url(../../img/icons/fb.svg) -54px -10px;
+}
+
+x
+.bg-in {
+    width: 24px; height: 24px;
+    background: url(../../img/icons/in.svg) -10px -54px;
+}
+
+x
+.bg-tg {
+    width: 24px; height: 24px;
+    background: url(../../img/icons/tg.svg) -54px -54px;
+}
