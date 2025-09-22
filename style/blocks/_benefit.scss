@@ -7,10 +7,11 @@
 }
 
 .benefit__img {
-    margin-bottom: 22px;
+    margin-bottom: 14px;
 }
 
 .benefit__img--wrapper {
+    display: inline-block;
     height: 128px;
     width: 128px;
     background: #F2F5F4;
@@ -28,7 +29,7 @@
 }
 
 .benefit__title {
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 24px;
 }

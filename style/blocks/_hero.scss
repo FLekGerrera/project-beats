@@ -1,5 +1,4 @@
 .hero {
-    padding: 24px 0 65px;
     background-color: #F5F5F5;
     height: 100vh;
     min-height: 650px;
@@ -14,10 +13,11 @@
 }
 
 .hero__container {
-    background: url(../img/decor/Ellipse\ 5.png) right center / 50% auto no-repeat;
+    padding: 24px 0 65px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: url(../img/decor/Ellipse\ 5.png) right center / 50% auto no-repeat;
     height: 100%;
 }
 

@@ -1,11 +1,11 @@
 //colors
 $red: #E01F3D;
-$grey: #666666;
+$grey: #666;
 $black: #292929;
 $white: #fff;
 
 
-$containerWidth: 915px;
+$containerWidth: 915px; //940
 $baseFontSize: 16px;
 
 //fonts
@@ -18,8 +18,8 @@ $baseFontSize: 16px;
 @import './layout';
 
 //blocks
-@import './blocks/_header';
 @import './blocks/_hero';
+@import './blocks/_header';
 @import './blocks/_btn';
 @import './blocks/_features';
 @import './blocks/_feature';
@@ -27,3 +27,5 @@ $baseFontSize: 16px;
 @import './blocks/_headline';
 @import './blocks/_benefits';
 @import './blocks/_benefit';
+@import './blocks/_reviews';
+@import './blocks/_interactive-avatar';
