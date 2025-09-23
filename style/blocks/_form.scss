@@ -1,0 +1,65 @@
+#form {
+    background-color: #181818;
+    background: url(../img/decor/bg-form.png) center center no-repeat;
+    color: $white;
+}
+
+.form {
+    display: flex;
+    margin-top: 56px;
+}
+
+.form__col {
+    flex: 1;
+    margin-right: 26px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 12px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.form__block {
+    flex: 1;
+    margin-right: 16px;
+    
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.form__input {
+    margin-top: 3px;
+    padding: 16px 12px;
+    width: 100%;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    outline: none;
+
+    &:focus {
+        border-color: $red;
+    }
+
+    &--textarea {
+        min-height: 170px;
+        resize: none;
+    }
+}
+
+.form__controls {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.form__btns {
+    margin-top: 50px;
+}

@@ -1,3 +1,12 @@
+#reviews {
+    &:before {
+        content: url(../img/decor/Ellipse\ 7.svg);
+        position: absolute;
+        left: 25%;
+        bottom: -26px;
+    }
+}
+
 .reviews__display {
     padding: 42px;
     margin-top: 32px;

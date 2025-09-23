@@ -7,8 +7,19 @@
     font-family: "Play", Helvetica, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-}
+    border: none;
+    &:hover {
+        background: #CA1B36;
+    }
 
-.btn:hover {
-    background: #CA1B36;
+    &--tsp {
+        font-weight: 400;
+        background: transparent;
+        text-transform: none;
+        
+        &:hover {
+            background: none;
+            color: $red;
+        }
+    }
 }
