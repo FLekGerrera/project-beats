@@ -14,7 +14,7 @@
 <body>
     <div class="wrapper">
         <div class="maincontent">
-            <section class="hero">
+            <section class="hero" id="hero">
                 <div class="container hero__container">
                     <header class="header">
                         <div class="logo">
@@ -27,6 +27,9 @@
                                 </li>
                                 <li class="menu__item">
                                     <a href="#reviews" class="menu__link">Отзывы</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#form" class="menu__link">Контакты</a>
                                 </li>
                             </ul>
                         </nav>
@@ -68,7 +71,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section" id="about">
+            <section class="section benefits-section" id="about">
                 <div class="container">
                     <div class="headline">
                         <h2 class="section__title headline__title">почему beats solo 3?</h2>
@@ -128,7 +131,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section" id="reviews">
+            <section class="section reviews-section" id="reviews">
                 <div class="container">
                     <h2 class="section__title">Отзывы</h2>
                     <div class="reviews">
@@ -176,7 +179,7 @@
 
                 </div>
             </section>
-            <section class="section" id="form">
+            <section class="section order-section" id="form">
                 <div class="container">
                     <h2 class="section__title section__title--white">Закажите доставку</h2>
                     <form class="form">
@@ -252,6 +255,14 @@
             </section>
         </div>
     </div>
+    <nav class="fixed-menu">
+        <ul class="fixed-menu__list">
+            <li class="fixed-menu__item fixed-menu__item--active"><a href="#hero" class="fixed-menu__link"></a></li>
+            <li class="fixed-menu__item"><a href="#about" class="fixed-menu__link"></a></li>
+            <li class="fixed-menu__item"><a href="#reviews" class="fixed-menu__link"></a></li>
+            <li class="fixed-menu__item"><a href="#form" class="fixed-menu__link"></a></li>
+        </ul>
+    </nav>
 </body>
 
 </html>

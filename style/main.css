@@ -589,7 +589,7 @@ img {
   text-align: center;
 }
 
-#about:before {
+.benefits-section:before {
   content: url(../img/decor/Vector\ 2.svg);
   position: absolute;
   left: 25%;
@@ -703,7 +703,7 @@ img {
   line-height: 1.2;
 }
 
-#reviews:before {
+.reviews-section:before {
   content: url(../img/decor/Ellipse\ 7.svg);
   position: absolute;
   left: 25%;
@@ -820,7 +820,7 @@ img {
      object-fit: cover;
 }
 
-#form {
+.order-section {
   background-color: #181818;
   background: url(../img/decor/bg-form.png) center center no-repeat;
   color: #fff;
@@ -942,4 +942,48 @@ img {
           transform: translate(-50%, -50%);
   border-radius: 50%;
   display: none;
+}
+
+.fixed-menu {
+  position: fixed;
+  top: 20%;
+  right: 3%;
+  z-index: 100;
+}
+
+.fixed-menu__item {
+  margin-bottom: 150px;
+}
+.fixed-menu__item:last-child {
+  margin-bottom: 0;
+}
+.fixed-menu__item--active .fixed-menu__link {
+  border-color: #E01F3D;
+}
+.fixed-menu__item--active .fixed-menu__link:before {
+  background: #E01F3D;
+}
+.fixed-menu__item:hover .fixed-menu__link:before {
+  background: #E01F3D;
+}
+
+.fixed-menu__link {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  position: relative;
+}
+.fixed-menu__link:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #292929;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
 }
