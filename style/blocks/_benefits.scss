@@ -1,5 +1,5 @@
 .benefits {
-    margin-top: 60px;
+    margin-top: rem(60px);
 }
 
 .benefits__list {
@@ -14,7 +14,7 @@
     &::before {
         content: url(../img/decor/Combined\ shape\ 2204.svg);
         position: absolute;
-        top: 60px;
+        top: rem(60px);
         right: 0;
         transform: translateX(50%);
     }

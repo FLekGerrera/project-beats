@@ -1,9 +1,12 @@
+html {
+    font-size: $baseFontSize;
+}
+
 html, body {
     height: 100%;
 }
 
 body {
-    font-size: $baseFontSize;
     font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
     color: $black;
     line-height: 1.42;
@@ -15,7 +18,6 @@ body {
 .wrapper {
     position: relative;
     width: 100%;
-    min-width: $containerWidth + 20px;
     min-height: 100%;
     overflow: hidden;
 }
@@ -23,7 +25,8 @@ body {
 //container
 
 .container {
-    width: $containerWidth;
+    width: 95%;
+    max-width: $containerWidth;
     margin: 0 auto;
 }
 

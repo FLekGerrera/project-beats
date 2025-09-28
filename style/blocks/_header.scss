@@ -5,13 +5,13 @@
 }
 
 .logo {
-    height: 40px;
-    width: 40px;
+    height: rem(40px);
+    width: rem(40px);
 }
 
 .menu {
-    margin-top: 5px;
-    font-size: 18px;
+    margin-top: rem(5px);
+    font-size: rem(18px);
 }
 
 .menu__list {
@@ -20,7 +20,7 @@
 }
 
 .menu__item {
-    margin-right: 27px;
+    margin-right: rem(27px);
 
     &:last-child {
         margin-right: 0;
@@ -35,15 +35,15 @@
 .phone-number__text {
     display: flex;
     font-family: "Play", Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: rem(18px);
     font-style: normal;
 }
 
 .phone-number__icon {
-    margin-right: 6px;
+    margin-right: rem(6px);
 }
 
 .phone-number__icon--elem {
-    height: 14px;
-    width: 14px;
+    height: rem(14px);
+    width: rem(14px);
 }

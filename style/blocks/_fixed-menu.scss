@@ -6,7 +6,7 @@
 }
 
 .fixed-menu__item {
-    margin-bottom: 150px;
+    margin-bottom: rem(150px);
 
     &:last-child {
         margin-bottom: 0;
@@ -33,16 +33,16 @@
 
 .fixed-menu__link {
     display: block;
-    width: 16px;
-    height: 16px;
-    border: 1px solid transparent;
+    width: rem(16px);
+    height: rem(16px);
+    border: rem(1px) solid transparent;
     border-radius: 50%;
     position: relative;
 
     &:before {
         content: "";
-        width: 6px;
-        height: 6px;
+        width: rem(6px);
+        height: rem(6px);
         background: $black;
         position: absolute;
         top: 50%;

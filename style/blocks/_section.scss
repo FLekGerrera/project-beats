@@ -1,6 +1,6 @@
 .section {
     height: 100vh;
-    min-height: 650px;
+    min-height: rem(650px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +10,7 @@
 }
 
 .section__title {
-    font-size: 48px;
+    font-size: rem(48px);
     font-weight: 700;
     line-height: 1.1;
     text-transform: uppercase;
@@ -22,6 +22,6 @@
         content: url(../img/decor/Vector\ 2.svg);
         position: absolute;
         left: 25%;
-        bottom: -23px;
+        bottom: rem(-23px);
     }
 }

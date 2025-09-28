@@ -6,12 +6,12 @@
 
 .form {
     display: flex;
-    margin-top: 56px;
+    margin-top: rem(56px);
 }
 
 .form__col {
     flex: 1;
-    margin-right: 26px;
+    margin-right: rem(26px);
 
     &:last-child {
         margin-right: 0;
@@ -20,7 +20,7 @@
 
 .form__row {
     display: flex;
-    margin-bottom: 12px;
+    margin-bottom: rem(12px);
 
     &:last-child {
         margin-bottom: 0;
@@ -29,7 +29,7 @@
 
 .form__block {
     flex: 1;
-    margin-right: 16px;
+    margin-right: rem(16px);
     
     &:last-child {
         margin-right: 0;
@@ -37,11 +37,11 @@
 }
 
 .form__input {
-    margin-top: 3px;
-    padding: 16px 12px;
+    margin-top: rem(3px);
+    padding: rem(16px) rem(12px);
     width: 100%;
-    border: 3px solid transparent;
-    border-radius: 4px;
+    border: rem(3px) solid transparent;
+    border-radius: rem(4px);
     outline: none;
 
     &:focus {
@@ -49,7 +49,7 @@
     }
 
     &--textarea {
-        min-height: 170px;
+        min-height: rem(170px);
         resize: none;
     }
 }
@@ -61,5 +61,5 @@
 }
 
 .form__btns {
-    margin-top: 50px;
+    margin-top: rem(50px);
 }

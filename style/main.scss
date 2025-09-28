@@ -7,12 +7,19 @@ $white: #fff;
 $containerWidth: 915px; //940
 $baseFontSize: 16px;
 
-//z-indexes
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
 
+
+//z-indexes
 $z-fixed-menu: 100;
 
 //fonts
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&display=swap');
+
+//media
+@import './media';
 
 //normalize
 @import './normalize';

@@ -3,13 +3,13 @@
         content: url(../img/decor/Ellipse\ 7.svg);
         position: absolute;
         left: 25%;
-        bottom: -26px;
+        bottom: rem(-26px);
     }
 }
 
 .reviews__display {
-    padding: 42px;
-    margin-top: 32px;
+    padding: rem(42px);
+    margin-top: rem(32px);
     background: #F8FAF9;
     position: relative;
     overflow: hidden;
@@ -17,13 +17,13 @@
     &:before {
         content: "";
         display: block;
-        width: 83px;
-        height: 83px;
+        width: rem(83px);
+        height: rem(83px);
         border-radius: 50%;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: -65px;
+        top: rem(-65px);
         background: $white;
     }
 }
@@ -33,8 +33,8 @@
 }
 
 .reviews__avatar {
-    width: 253px;
-    height: 264px;
+    width: rem(253px);
+    height: rem(264px);
 }
 
 .reviews__avatar-img {
@@ -44,7 +44,7 @@
 }
 
 .reviews__content {
-    margin-left: 40px;
+    margin-left: rem(40px);
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -52,23 +52,23 @@
 }
 
 .reviews__title {
-    font-size: 24px;
+    font-size: rem(24px);
     font-weight: 700;
 }
 
 .reviews__text {
-    margin-top: 27px;
+    margin-top: rem(27px);
     color: $grey;
 }
 
 .reviews__author {
-    margin-top: 38px;
-    font-size: 18px;
+    margin-top: rem(38px);
+    font-size: rem(18px);
     font-weight: 700;
 }
 
 .reviews__switcher {
-    margin-top: 15px;
+    margin-top: rem(15px);
     display: flex;
     justify-content: center;
 }
