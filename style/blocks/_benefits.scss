@@ -1,3 +1,12 @@
+.benefits-section {
+    &:before {
+        content: url(../img/decor/Vector\ 2.svg);
+        position: absolute;
+        left: 16%;
+        bottom: rem(-23px);
+    }
+}
+
 .benefits {
     margin-top: rem(60px);
 }
@@ -11,7 +20,7 @@
     padding: 0 4%;
     position: relative;
 
-    &::before {
+    &:before {
         content: url(../img/decor/Combined\ shape\ 2204.svg);
         position: absolute;
         top: rem(60px);

@@ -12,6 +12,10 @@
 .menu {
     margin-top: rem(5px);
     font-size: rem(18px);
+
+    @include tablets {
+        // display: none;
+    }
 }
 
 .menu__list {
@@ -30,6 +34,12 @@
 .phone-number {
     display: flex;
     align-items: center;
+}
+
+.header__phone-number {
+    @include tablets {
+        // display: none;
+    }
 }
 
 .phone-number__text {

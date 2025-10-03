@@ -17,11 +17,3 @@
     text-align: center;
 }
 
-.benefits-section {
-    &:before {
-        content: url(../img/decor/Vector\ 2.svg);
-        position: absolute;
-        left: 25%;
-        bottom: rem(-23px);
-    }
-}
