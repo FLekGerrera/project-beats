@@ -4,10 +4,18 @@
     justify-content: start;
     align-items: center;
     text-align: center;
+
+    @include phones {
+        flex-direction: row;
+    }
 }
 
 .benefit__img {
     margin-bottom: rem(14px);
+
+    @include phones {
+        margin-bottom: 0;
+    }
 }
 
 .benefit__img--wrapper {
@@ -28,6 +36,15 @@
     transform: translate(-50%, -50%);
 }
 
+.benefit__text {
+    @include phones {
+        margin-left: rem(14px);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 .benefit__title {
     margin-bottom: rem(4px);
     font-weight: 700;
@@ -37,4 +54,8 @@
 .benefit__desc {
     font-weight: 400;
     line-height: 1.2;
+
+    @include phones {
+        text-align: left;
+    }
 }

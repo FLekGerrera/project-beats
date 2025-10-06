@@ -15,5 +15,9 @@
     line-height: 1.1;
     text-transform: uppercase;
     text-align: center;
+
+    @include phones {
+        font-size: rem(34px);
+    }
 }
 

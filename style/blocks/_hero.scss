@@ -28,7 +28,7 @@
 .hero__title-section {
     width: 46%;
     margin-top: rem(94px);
-
+    
     @include tablets {
         width: 100%;
         flex: 1;
@@ -40,7 +40,10 @@
         margin-top: 0;
         
         &:before {
-            content: url(../img/decor/Ellipse\ 5.png);
+            content: "";
+            width: 316px;
+            height: 316px;
+            background: url(../img/decor/Ellipse\ 5.png) center center / contain no-repeat;
         }
     }
 }
@@ -54,6 +57,11 @@
     
     @include tablets {
         padding: 0 5%;
+        margin-top: rem(68px);
+    }
+
+    @include phones {
+        font-size: rem(34px);
     }
 }
 

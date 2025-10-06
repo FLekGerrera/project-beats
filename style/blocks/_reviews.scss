@@ -9,7 +9,7 @@
 
 .reviews__display {
     padding: rem(42px);
-    margin-top: rem(32px);
+    margin-top: rem(30px);
     background: #F8FAF9;
     position: relative;
     overflow: hidden;
@@ -17,8 +17,8 @@
     &:before {
         content: "";
         display: block;
-        width: rem(83px);
-        height: rem(83px);
+        width: rem(86px);
+        height: rem(86px);
         border-radius: 50%;
         position: absolute;
         left: 50%;
@@ -85,18 +85,19 @@
 }
 
 .reviews__text {
-    margin-top: rem(27px);
+    margin-top: rem(22px);
     color: $grey;
+    line-height: 1.22;
 }
 
 .reviews__author {
-    margin-top: rem(38px);
+    margin-top: rem(36px);
     font-size: rem(18px);
     font-weight: 700;
 }
 
 .reviews__switcher {
-    margin-top: rem(15px);
+    margin-top: rem(9px);
     display: flex;
     justify-content: center;
 }
