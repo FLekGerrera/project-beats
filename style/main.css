@@ -492,6 +492,11 @@ img {
     padding: 0 23%;
   }
 }
+@media screen and (max-width: 480px) {
+  .hero__title-desc {
+    padding: 0 17%;
+  }
+}
 
 .hero__btn {
   margin-top: 2.25rem;
@@ -713,6 +718,16 @@ img {
   color: grey;
   line-height: 1.22;
 }
+@media screen and (max-width: 768px) {
+  .headline__subtitle {
+    padding: 0 11%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .headline__subtitle {
+    padding: 0 10%;
+  }
+}
 
 .benefits-section:before {
   content: url(../img/decor/Vector\ 2.svg);
@@ -845,6 +860,7 @@ img {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    text-align: left;
   }
 }
 
@@ -857,11 +873,6 @@ img {
 .benefit__desc {
   font-weight: 400;
   line-height: 1.2;
-}
-@media screen and (max-width: 480px) {
-  .benefit__desc {
-    text-align: left;
-  }
 }
 
 .reviews-section:before {

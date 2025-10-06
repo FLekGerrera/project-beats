@@ -12,4 +12,12 @@
     font-size: rem(16px);
     color: grey;
     line-height: 1.22;
+
+    @include tablets {
+        padding: 0 11%;
+    }
+
+    @include phones {
+        padding: 0 10%;
+    }
 }
