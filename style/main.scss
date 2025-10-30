@@ -4,7 +4,7 @@ $grey: #666;
 $black: #292929;
 $white: #fff;
 
-$containerWidth: 940px; //940
+$containerWidth: 915px;
 $baseFontSize: 16px;
 
 //breakpoints
@@ -42,5 +42,8 @@ $z-fixed-menu: 100;
 @import './blocks/interactive-avatar';
 @import './blocks/form';
 @import './blocks/radio';
+
+@import './blocks/footer';
+@import './blocks/socials';
 
 @import './blocks/fixed-menu';

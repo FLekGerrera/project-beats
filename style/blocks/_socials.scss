@@ -1,0 +1,26 @@
+.socials {
+    @include phones {
+        margin-top: 16px;
+    }
+}
+
+.socials__list {
+    display: flex;
+}
+
+.socials__item {
+    margin-right: 10px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.socials__link {
+    display: block;
+    width: 30px;
+
+    @include phones {
+        width: 25px;
+    }
+}

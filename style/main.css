@@ -348,7 +348,7 @@ body {
 
 .container {
   width: 95%;
-  max-width: 940px;
+  max-width: 915px;
   margin: 0 auto;
 }
 
@@ -521,6 +521,9 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
@@ -533,6 +536,12 @@ img {
   padding-top: 0.625rem;
   font-size: 1.125rem;
 }
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -562,7 +571,12 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 0.4375rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header__phone-number {
+    display: none;
+  }
 }
 
 .phone-number__text {
@@ -596,6 +610,12 @@ img {
           justify-content: space-between;
   display: none;
 }
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: inline-block;
+  }
+}
+
 .hamburger__plank {
   display: block;
   height: 4px;
@@ -773,11 +793,6 @@ img {
   right: 0;
   -webkit-transform: translateX(50%);
           transform: translateX(50%);
-}
-@media screen and (max-width: 768px) {
-  .benefits__item:before {
-    display: none;
-  }
 }
 .benefits__item:first-child {
   padding-left: 0;
@@ -1122,6 +1137,12 @@ img {
   }
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .form__controls {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1129,6 +1150,13 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 0;
+}
+@media screen and (max-width: 480px) {
+  .form__controls {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .form__btns {
@@ -1197,11 +1225,131 @@ img {
   display: none;
 }
 
+.footer__container {
+  padding: 18px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .footer__container {
+    padding: 28px 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer__container {
+    padding: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.footer__address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (max-width: 480px) {
+  .footer__address {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.footer__address-street {
+  font-family: "Play", Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  .footer__address-street {
+    font-size: 1.3125rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer__address-street {
+    text-align: center;
+    font-size: 1.125rem;
+  }
+}
+
+.footer__phone-number .phone-number__text {
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .footer__phone-number .phone-number__text {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer__phone-number {
+    font-size: 21px;
+    color: #E01F3D;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer__phone-number {
+    margin-top: 12px;
+    color: #292929;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .socials {
+    margin-top: 16px;
+  }
+}
+
+.socials__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socials__item {
+  margin-right: 10px;
+}
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  display: block;
+  width: 30px;
+}
+@media screen and (max-width: 480px) {
+  .socials__link {
+    width: 25px;
+  }
+}
+
 .fixed-menu {
   position: fixed;
   top: 20%;
   right: 3%;
   z-index: 100;
+}
+@media screen and (max-width: 768px) {
+  .fixed-menu {
+    display: none;
+  }
 }
 
 .fixed-menu__item {

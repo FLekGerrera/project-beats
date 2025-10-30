@@ -1,0 +1,61 @@
+.footer__container {
+    padding: 18px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include tablets {
+        padding: 28px 0;
+    }
+
+    @include phones {
+        padding: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.footer__address {
+    display: flex;
+    flex-direction: column;
+
+    @include phones {
+        align-items: center;
+    }
+}
+
+.footer__address-street {
+    font-family: "Play", Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    @include tablets {
+        font-size: rem(21px);
+    }
+
+    @include phones {
+        text-align: center;
+        font-size: rem(18px);
+    }
+}
+
+.footer__phone-number {
+    & .phone-number__text {
+        font-size: 18px;
+        
+        @include phones {
+            font-size: 16px;
+        }
+    }
+    
+    @include tablets {
+        font-size: 21px;
+        color: $red;
+    }
+    
+    @include phones {
+        margin-top: 12px;
+        color: $black;
+    }
+}
