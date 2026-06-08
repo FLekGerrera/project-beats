@@ -1,6 +1,6 @@
 .btn {
     display: inline-flex;
-    padding: rem(16px) rem(42px);
+    padding: rem(20px) rem(42px);
     background: $red;
     border-radius: rem(100px);
     color: white;
@@ -8,6 +8,9 @@
     font-weight: 700;
     text-transform: uppercase;
     border: none;
+    line-height: 1;
+    cursor: pointer;
+
     &:hover {
         background: #CA1B36;
     }

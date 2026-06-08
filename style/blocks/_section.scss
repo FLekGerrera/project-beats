@@ -5,8 +5,10 @@
     flex-direction: column;
     justify-content: center;
     font-family: "Play", Arial, Helvetica, sans-serif;
-    position: relative;
+}
 
+.section--theme--white {
+    color: $white;
 }
 
 .section__title {
@@ -21,3 +23,8 @@
     }
 }
 
+.section__subtitle {
+    text-align: center;
+    padding: 0 18%;
+    line-height: 1.2;
+}

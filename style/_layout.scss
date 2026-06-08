@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 html {
     font-size: $baseFontSize;
 
@@ -8,10 +12,6 @@ html {
     @include phones {
         font-size: $baseFontSize - 2px;
     }
-}
-
-html, body {
-    height: 100%;
 }
 
 body {

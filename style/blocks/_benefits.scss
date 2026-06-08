@@ -1,9 +1,10 @@
 .benefits-section {
+    position: relative;
     &:before {
         content: url(../img/decor/Vector\ 2.svg);
         position: absolute;
-        left: 16%;
-        bottom: rem(-23px);
+        left: 24%;
+        bottom: rem(-30px);
     }
 }
 
@@ -31,12 +32,12 @@
     &:before {
         content: url(../img/decor/Combined\ shape\ 2204.svg);
         position: absolute;
-        top: rem(60px);
+        top: rem(50px);
         right: 0;
         transform: translateX(50%);
         
-        @include tablets {
-            // display: none;
+        @include phones {
+            display: none;
         }
     }
 

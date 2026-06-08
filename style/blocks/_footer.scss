@@ -51,11 +51,9 @@
     
     @include tablets {
         font-size: 21px;
-        color: $red;
     }
     
     @include phones {
         margin-top: 12px;
-        color: $black;
     }
 }

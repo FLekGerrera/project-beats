@@ -11,7 +11,7 @@
 }
 
 .benefit__img {
-    margin-bottom: rem(14px);
+    margin-bottom: rem(16px);
 
     @include phones {
         margin-bottom: 0;
@@ -19,11 +19,12 @@
 }
 
 .benefit__img--wrapper {
-    display: inline-block;
+    display: inline-flex;
     height: rem(128px);
     width: rem(128px);
     background: #F2F5F4;
     border-radius: 50%;
+    overflow: hidden;
     position: relative;
 }
 

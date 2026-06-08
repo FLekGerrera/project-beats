@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./style/main.css">
     <link rel="icon" type="image/png" href="./img/icons/logo.svg">
     <link rel="shortcut icon" type="image/png" href="./img/icons/logo.svg">
@@ -60,13 +60,13 @@
                                 </div>
                                 <div class="feature__text">Безупречный звук</div>
                             </li>
-                            <li class="features__item">
+                            <li class="features__item feature">
                                 <div class="feature__icon">
                                     <img src="./img/icons/charging.svg" alt="charging">
                                 </div>
                                 <div class="feature__text">До 40 часов работы</div>
                             </li>
-                            <li class="features__item">
+                            <li class="features__item feature">
                                 <div class="feature__icon">
                                     <img src="./img/icons/plug.svg" alt="plug">
                                 </div>
@@ -80,7 +80,7 @@
                 <div class="container">
                     <div class="headline">
                         <h2 class="section__title headline__title">почему beats solo 3?</h2>
-                        <div class="headline__subtitle">Процессор W1 работает невероятно эффективно и позволяет легко
+                        <div class="section__subtitle">Процессор W1 работает невероятно эффективно и позволяет легко
                             подключать наушники к различным устройствам Apple.
                         </div>
                     </div>
@@ -181,10 +181,9 @@
                             </li>
                         </ul>
                     </div>
-
                 </div>
             </section>
-            <section class="section order-section" id="form">
+            <section class="section section--theme--white form-section" id="form">
                 <div class="container">
                     <h2 class="section__title section__title--white">Закажите доставку</h2>
                     <form class="form">
@@ -231,7 +230,7 @@
                                     <textarea name="" id="" class="form__input form__input--textarea"></textarea>
                                 </label>
                             </div>
-                            <div class="form__row form__controls">
+                            <div class="form__controls">
                                 <label class="radio">
                                     <input type="radio" name="option" class="radio__elem">
                                     <div class="radio__visible"></div>
@@ -242,25 +241,24 @@
                                     <div class="radio__visible"></div>
                                     <div class="radio__title">Оплата картой</div>
                                 </label>
-                                <div class="form__row form__controls">
-                                    <label class="radio radio--checkbox">
-                                        <input type="checkbox" class="radio__elem">
-                                        <div class="radio__visible"></div>
-                                        <div class="radio__title">Не перезванивать</div>
-                                    </label>
-                                </div>
+                            </div>
+                            <div class="form__controls">
+                                <label class="radio radio--checkbox">
+                                    <input type="checkbox" class="radio__elem">
+                                    <div class="radio__visible"></div>
+                                    <div class="radio__title">Не перезванивать</div>
+                                </label>
                             </div>
                             <div class="form__btns">
                                 <button type="submit" class="btn">Заказать</button>
                                 <button type="reset" class="btn btn--tsp">Очистить</button>
                             </div>
-                        </div>
                     </form>
                 </div>
             </section>
         </div>
     </div>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container footer__container">
             <address class="footer__address">
                 <div class="footer__address-street">Москва, ул.Новый Арбат, д.31/12</div>
@@ -296,10 +294,10 @@
                 </ul>
             </div>
         </div>
-    </footer>
+    </footer>  -->
     <nav class="fixed-menu">
         <ul class="fixed-menu__list">
-            <li class="fixed-menu__item fixed-menu__item--active"><a href="#hero" class="fixed-menu__link"></a></li>
+            <li class="fixed-menu__item fixed-menu__item--active"><a href="#" class="fixed-menu__link"></a></li>
             <li class="fixed-menu__item"><a href="#about" class="fixed-menu__link"></a></li>
             <li class="fixed-menu__item"><a href="#reviews" class="fixed-menu__link"></a></li>
             <li class="fixed-menu__item"><a href="#form" class="fixed-menu__link"></a></li>

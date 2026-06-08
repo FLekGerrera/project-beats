@@ -1,14 +1,17 @@
 .reviews-section {
+    position: relative;
+
     &:before {
         content: url(../img/decor/Ellipse\ 7.svg);
         position: absolute;
-        left: 18%;
+        left: 25%;
         bottom: rem(-26px);
     }
 }
 
 .reviews__display {
-    padding: rem(42px);
+    min-height: 348px;
+    padding: rem(42px) rem(26px);
     margin-top: rem(30px);
     background: #F8FAF9;
     position: relative;
@@ -100,4 +103,8 @@
     margin-top: rem(9px);
     display: flex;
     justify-content: center;
+}
+
+.reviews__switcher-item {
+    margin-right: 1px;
 }
