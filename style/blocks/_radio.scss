@@ -4,6 +4,10 @@
     user-select: none;
     cursor: pointer;
 
+    &:first-child {
+        margin-bottom: rem(10px);
+    }
+
     &:last-child {
         margin-right: 0;
         margin-bottom: 0;

@@ -455,7 +455,10 @@ img {
     margin-top: 0;
   }
   .hero__title-section::before {
-    content: url(../img/decor/Ellipse\ 5.png);
+    content: "";
+    width: 20.1875rem;
+    height: 20.1875rem;
+    background: url(../img/decor/Ellipse\ 5.png) center center/contain no-repeat;
   }
 }
 
@@ -727,6 +730,7 @@ img {
   text-align: center;
   padding: 0 18%;
   line-height: 1.2;
+  margin-top: 1.0625rem;
 }
 
 .benefits-section {
@@ -1191,6 +1195,9 @@ input[type=number]::-webkit-outer-spin-button {
       -ms-user-select: none;
           user-select: none;
   cursor: pointer;
+}
+.radio:first-child {
+  margin-bottom: 0.625rem;
 }
 .radio:last-child {
   margin-right: 0;
