@@ -930,6 +930,17 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
+.reviews__dispaly-inner--active {
+  position: static;
+  opacity: 1;
+  pointer-events: unset;
 }
 @media screen and (max-width: 768px) {
   .reviews__dispaly-inner {

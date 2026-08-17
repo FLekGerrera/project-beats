@@ -42,6 +42,18 @@
 
 .reviews__dispaly-inner {
     display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+
+    &--active {
+        position: static;
+        opacity: 1;
+        pointer-events: unset;
+    }
 
     @include tablets {
         flex-direction: column;

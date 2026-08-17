@@ -140,8 +140,8 @@
                 <div class="container">
                     <h2 class="section__title">Отзывы</h2>
                     <div class="reviews">
-                        <div class="reviews__display">
-                            <div class="reviews__dispaly-inner">
+                        <ul class="reviews__display">
+                            <li class="reviews__dispaly-inner reviews__dispaly-inner--active" data-switcher-with="one">
                                 <div class="reviews__avatar">
                                     <img src="./img/content/9d7f98c53ab48abff967e96361b771ac9e18e005.jpg" alt=""
                                         class="reviews__avatar-img">
@@ -158,22 +158,60 @@
                                     </div>
                                     <div class="reviews__author">Билли Айлиш</div>
                                 </article>
-                            </div>
-                        </div>
+                            </li>
+                            <li class="reviews__dispaly-inner" data-switcher-with="two">
+                                <div class="reviews__avatar">
+                                    <img src="./img/content/2f4a0d78b3fdf0070a09ef95cb0d2db012569538.png" alt=""
+                                        class="reviews__avatar-img">
+                                </div>
+                                <article class="reviews__content">
+                                    <h3 class="reviews__title">Крутой дизайн</h3>
+                                    <div class="reviews__text">
+                                        <p>
+                                            После тренировок всегда хочется быстро закинуться чем-то белковым, потому
+                                            что до дома ещё нужно доехать. А кушать хочется. Протеиновые батончики
+                                            всегда выручают в этом плане. Спасибо производителю за этот качественный и
+                                            экологичный продукт.
+                                        </p>
+                                    </div>
+                                    <div class="reviews__author">Вадим Гречев</div>
+                                </article>
+                            </li>
+                            <li class="reviews__dispaly-inner" data-switcher-with="three">
+                                <div class="reviews__avatar">
+                                    <img src="./img/content/812e34eaebf18bdbef01f9193a23d68a0d1f39db.png" alt=""
+                                        class="reviews__avatar-img">
+                                </div>
+                                <article class="reviews__content">
+                                    <h3 class="reviews__title">На долго хватает заряда</h3>
+                                    <div class="reviews__text">
+                                        <p>
+                                            Батончики понравились. На мой взгляд слегка завышена цена по сравнению с
+                                            конкурентами, однако, как говорится – оно того стоит. Нравится носить с
+                                            собой, нравится держать в руке. Ну и конечно же, кушать. Идеально утоляют
+                                            голод, хоть и не надолго. Через час уже ем ещё один. Но это скорее плюс, чем
+                                            минус.
+                                        </p>
+                                    </div>
+                                    <div class="reviews__author">Мария Орлова </div>
+                                </article>
+                            </li>
+                        </ul>
                         <ul class="reviews__switcher">
-                            <li class="reviews__switcher-item interactive-avatar interactive-avatar--active">
+                            <li class="reviews__switcher-item interactive-avatar interactive-avatar--active"
+                                data-open="one">
                                 <a href="" class="interactive-avatar__link">
                                     <img src="./img/content/9d7f98c53ab48abff967e96361b771ac9e18e005.jpg" alt=""
                                         class="interactive-avatar__img">
                                 </a>
                             </li>
-                            <li class="reviews__switcher-item interactive-avatar">
+                            <li class="reviews__switcher-item interactive-avatar" data-open="two">
                                 <a href="" class="interactive-avatar__link">
                                     <img src="./img/content/2f4a0d78b3fdf0070a09ef95cb0d2db012569538.png" alt=""
                                         class="interactive-avatar__img">
                                 </a>
                             </li>
-                            <li class="reviews__switcher-item interactive-avatar">
+                            <li class="reviews__switcher-item interactive-avatar" data-open="three">
                                 <a href="" class="interactive-avatar__link">
                                     <img src="./img/content/812e34eaebf18bdbef01f9193a23d68a0d1f39db.png" alt=""
                                         class="interactive-avatar__img">
@@ -258,7 +296,7 @@
             </section>
         </div>
     </div>
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container footer__container">
             <address class="footer__address">
                 <div class="footer__address-street">Москва, ул.Новый Арбат, д.31/12</div>
@@ -294,7 +332,7 @@
                 </ul>
             </div>
         </div>
-    </footer>  -->
+    </footer>
     <nav class="fixed-menu">
         <ul class="fixed-menu__list">
             <li class="fixed-menu__item fixed-menu__item--active"><a href="#" class="fixed-menu__link"></a></li>
@@ -303,6 +341,9 @@
             <li class="fixed-menu__item"><a href="#form" class="fixed-menu__link"></a></li>
         </ul>
     </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./scripts/tabs.js"></script>
 </body>
 
 </html>
